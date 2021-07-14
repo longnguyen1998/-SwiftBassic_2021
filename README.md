@@ -1,4 +1,4 @@
-# -SwiftBassic_2021
+# SwiftBassic_2021
 Some knowledge of Swift is required.
 
 ## Swift introduce
@@ -11,3 +11,12 @@ Some knowledge of Swift is required.
 * Swift is safe, syntactic sugar, friendly to new programmers, protocol- oriented programming (interface)...
 * Swift can works with Objective C language, and interactive with languages like python, JavaScript...
 * Swift is fast, good performance and productivity.
+
+## Expressions, Variables & Constants
+
+```swift
+#!/usr/bin/env swiftshell
+
+import SwiftShell
+let string: String = "Hello Mr.NhatHM"
+```
