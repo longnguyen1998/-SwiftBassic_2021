@@ -15,9 +15,6 @@ Some knowledge of Swift is required.
 ## Expressions
 * Swift have same expressions like other programming language.
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 var string: String = "Hello Swift"
 
 let years: Int = 2021
@@ -33,9 +30,6 @@ var result = add
 ## Variables & Constants
 * There are two way to declare a variable in Swift.
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 var string: String = "Hello Swift"
 
 let years: Int = 2021
@@ -43,9 +37,6 @@ let years: Int = 2021
 * Variable declared with var can change value (mutable).
 * Variable declared with let can’t change value (immutable).
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 var string: String = "Hello Swift"
 let years: Int = 2021
 
@@ -55,10 +46,7 @@ years = 2222 // Error
 
 ## Types & Operator
 * In swift, when you declare variable, Swift’s compiler will deduce type of var automatically using type inference.
-* ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
+```swift
 let sampleInt: Int = 1998
 let sampleDouble: Double = 1.2
 let sampleString: String = "Birthday: \(sampleDouble).\(sampleInt)"
@@ -69,9 +57,6 @@ print(type(of: sampleString))
 ```
 * Swift not allow operators between difference file type.
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 sampleInt = 2.1 //Error: Cannot assign value of type 'Double' to type 'Int'
 
 let sumWrong = sampleInt + sampleDouble //Error: Differene type
@@ -85,9 +70,6 @@ let sumRight = Double(sampleInt) + sampleDouble //sumRight = 1999.2
 ✓ Ternary operators operate on three targets. Like C, Swift has only one ternary operator, the ternary conditional operator (a ? b : c).
 * Assignment Operator
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 var a = 5
 let b = 10
 a= b
@@ -108,9 +90,6 @@ a= b
 ## Control Flow
 * For
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 // For in loop
 let listChars: Array = ["A", "B", "C", "D", "E", "F", "G"]
 for char in listChars {
@@ -124,9 +103,6 @@ for index in 1...5 {
 ```
 * White
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 // While loop
 var count = 10
 while count > 0 {
@@ -143,9 +119,6 @@ repeat {
 ```
 * If
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 var speed = 100 
 if speed >= 100 {
   print("Dangerous, slow down")
@@ -157,9 +130,6 @@ if speed >= 100 {
 ```
 * Guard
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 // Guard (early exit)
 let number = Int.random(in: 0...10)
 func checkIfValidNumber(_ number: Int) {
@@ -172,9 +142,6 @@ checkIfValidNumber(number)
 ```
 * Switch ( Switch is very powerful statement )
 ```swift
-#!/usr/bin/env swiftshell
-
-import SwiftShell
 switch speed {
 case 100:
   print("Dangerous, slow down")
