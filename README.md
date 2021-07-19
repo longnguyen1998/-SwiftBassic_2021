@@ -72,7 +72,7 @@ let sumRight = Double(sampleInt) + sampleDouble //sumRight = 1999.2
 ```swift
 var a = 5
 let b = 10
-a= b
+a = b
 ```
 * Remainder Operator
 ✓ 9 % 4 // equals 1
@@ -140,7 +140,7 @@ guard number % 2 == 0 else {
 print("Number valid") }
 checkIfValidNumber(number)
 ```
-* Switch ( Switch is very powerful statement )
+* Switch (Switch is very powerful statement)
 ```swift
 switch speed {
 case 100:
